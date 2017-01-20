@@ -1,9 +1,29 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-<p></p>
-<input type="button" onclick="launch()" value="啟動">
-<script>
-  function launch(){
-    d3.select('p').text(random(1911,2016));
-  }
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>D3 course HW02</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+<style>
+    div {
+        border: 2px blue;
+        height: 20px;
+        width: 120px;
+        line-height: 20px;
+        text-aligh: center;
+    }
+    </style>
+</head>
+<body>
+<div></div>
+<input type="button" onclicl="square()" value="click!">
 
-</script>
+<script>
+    funtion launch(){
+        d3.select("p").text (random(1911,2016));
+    }
+    </script>
+
+
+</body>
+</html>
